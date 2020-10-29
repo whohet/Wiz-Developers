@@ -1,0 +1,179 @@
+.navbar {
+  padding: 1.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  color: #ffffff;
+}
+.container1{
+  height: 100%;
+  width:100%;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+#title {
+  background-color: #000000;
+  color: #fff;
+  margin: 0;
+}
+.kruimg{
+  height: 90px;
+  width: 100px;
+  display: block;
+}
+.azo1{
+  background-color: #001429
+}
+.azo2
+{
+  color:#ffffff;
+}
+.q1{
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.saap2
+{
+  text-align: left;
+
+}
+.krut
+{
+  border-radius: 100%;
+  height: 180px;
+  width: 200px;
+float: left;
+margin-right: 50px;
+margin-left: 50px;
+}
+.deva
+{
+
+  background-image: url('Images/bg.jpg');
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 25px auto 0 auto;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .skill-row1 {
+      width: 50%;
+      margin: 0 auto 25px auto;
+      text-align: right;
+      margin-bottom: 25px;
+    }
+
+.s1{
+  text-align: center;
+  margin-top: 20px;
+}
+.p1{
+  margin-bottom: 20px;
+}
+.s2{
+  height: 500px;
+  width: 100%;
+
+}
+.s3{
+  margin: 25% 50%;
+
+}
+.s4{
+color: #ff0000;
+}
+.azo4{
+  color: #001429;
+  text-align: center;
+margin-top:20px;
+  font-family: cursive;
+}
+.digitalk, .weba{
+  border-radius: 20%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.appa, .Graphicsa {
+
+  float: right;
+  border-radius: 20%;
+  width: 25%;
+  margin-left: 30px;
+}
+.azo2{
+  text-align: center;
+}
+.azo2
+{
+  color:#ffffff;
+  text-align: center;
+
+}
+.azo3{
+  margin-bottom: 100px;
+}
+.a1{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 80px;
+  background-color: #001429;
+
+}
+.z{
+  margin-bottom: 50px;
+}
+.z1{
+  margin-bottom: 25px;
+}
+p{
+  font-size: 100%
+}
+.d2{
+  background-color: #000000;
+}
+.f2{
+  color: #ffffff;
+}.a12{
+  margin-bottom: 15px;
+}
+@media(max-width:900px){
+  .azo3{
+    text-align: center;
+  }
+  img.weba{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .saap7{
+    text-align: center;
+  }
+  .appa{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+}

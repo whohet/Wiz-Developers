@@ -1,0 +1,490 @@
+html, body {
+    font-family: "Ubuntu";
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.always-hide {
+    display: none;
+}
+
+/*---Intro-----*/
+/*Load*/
+.not-hide, .not-hide {
+    background: #0984e3;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bar {
+    position: relative;
+    height: 2px;
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 150px;
+}
+
+.circle {
+    position: absolute;
+    top: -30px;
+    margin-left: -30px;
+    height: 60px;
+    width: 60px;
+    left: 0;
+    background: #fff;
+    border-radius: 30%;
+    -webkit-animation: move 5s infinite;
+}
+
+.data-hide {
+    position: absolute;
+    top: -25px;
+    right: -85px;
+    text-transform: uppercase;
+    color: #0984e3;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+}
+
+@-webkit-keyframes move {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+        -webkit-transform: rotate(450deg);
+        width: 150px;
+        height: 150px;
+    }
+
+    75% {
+        left: 100%;
+        -webkit-transform: rotate(450deg);
+        width: 150px;
+        height: 150px;
+    }
+
+    100 {
+        right: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .data-hide {
+        top: -25px;
+        right: -30%;
+    }
+
+    @-webkit-keyframes move {
+        0% {
+            left: 0;
+        }
+
+        50% {
+            left: 100%;
+            -webkit-transform: rotate(450deg);
+            width: 100px;
+            height: 100px;
+        }
+
+        75% {
+            left: 100%;
+            -webkit-transform: rotate(450deg);
+            width: 100px;
+            height: 100px;
+        }
+
+        100 {
+            right: 100%;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+/*Load*/
+/*Nav Bar
+.title, .container-fluid, .navbar {
+    background-color: #0984e3;
+}*/
+.container-fluid {
+    padding: 3% 15% 3%;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-img {
+    width: 60%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: normal;
+}
+
+.smart-scroll {
+    position: fixed;
+    z-index: 1030;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 1s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 1s ease-in-out;
+}
+
+/*---Intro-----*/
+.intro {
+    padding: 14% 15% 3% 15%;
+    color: white;
+}
+
+.small-hide {
+    display: none;
+}
+
+.img-hide {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .intro {
+        padding-top: 15%;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .intro {
+        padding-top: 15%;
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .nav-img {
+        display: none;
+    }
+
+    .small-hide {
+        display: inline;
+    }
+}
+
+.intro-line {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.intro-2 {
+    padding: 0 15% 7% 15%;
+    text-align: center;
+    color: black;
+}
+
+.mobile-show {
+    display: none;
+}
+
+/*other intro-2 styles at last to overide existing styles*/
+/*---Features---*/
+.features {
+    padding: 7% 15% 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.fea {
+    font-weight: bold;
+    text-align: center;
+}
+
+.fea-p {
+    text-align: center;
+    padding: 5%;
+    color: grey;
+}
+
+.fea-in {
+    display: inline;
+}
+
+.st {
+    text-align: center;
+    size: 50%;
+    padding-bottom: 1rem;
+    color: #0984e3;
+}
+
+.fas:hover {
+    color: purple;
+}
+
+/*testimonial*/
+.testimonials {
+    background-color: #0984e3;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 550;
+    line-height: 3.5rem;
+    font-size: 2rem;
+}
+
+.testimonials-text {
+    font-size: 1.5rem;
+}
+
+.services {
+    padding-bottom: 5%;
+}
+
+.test-img {
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15% 7% 15%;
+}
+
+/*--download--*/
+.download {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15% 7% 15%;
+}
+
+.down-text {
+    color: black;
+    font-weight: bold;
+}
+
+/*--footer--*/
+.footer {
+    background-color: #0984e3;
+    text-align: center;
+    padding: 7% 15% 7% 15%;
+}
+
+.f-link {
+    text-decoration: none;
+    color: black;
+}
+
+.f-link:hover {
+    color: white;
+}
+
+.f-f:hover {
+    color: white;
+}
+
+.f-f {
+    padding: 1%;
+}
+
+/*Intro 2*/
+.wiz-h1 {
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.wiz-h2 {
+    font-size: 2rem;
+    font-weight: 650;
+    padding-bottom: 3%;
+}
+
+.wiz-h2-part2 {
+    font-size: 2rem;
+    font-weight: 650;
+    padding-top: 0;
+}
+
+.wiz-h2-part1 {
+    font-size: 2rem;
+    font-weight: 650;
+    padding-bottom: 0;
+}
+
+.red {
+    color: #DC143C;
+}
+
+.white {
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .left1 {
+        text-align: left;
+    }
+
+    .right1 {
+        text-align: left;
+    }
+
+    .right2 {
+        text-align: right;
+    }
+
+    .left2 {
+        text-align: right;
+    }
+
+    .red {
+        display: block;
+    }
+
+    .firm-name {
+        display: block;
+    }
+
+    .intro {
+        padding-top: 20%;
+        text-align: center;
+    }
+}
+
+/*general tags*/
+.center {
+    text-align: center;
+}
+
+/*iphone bug fix*/
+@supports (-webkit-overflow-scrolling: touch) {
+
+    /* CSS specific to iOS devices */
+    .smart-scroll {
+        position: fixed;
+        z-index: 1030;
+    }
+
+    .scrolled-up {
+        transform: translateY(-100%);
+        transition: all 1s ease-in-out;
+    }
+
+    .scrolled-down {
+        transform: translateY(0);
+        transition: all 1s ease-in-out;
+    }
+}
+
+/*CSS trnastions ripple effect*/
+.apply {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0 {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@keyframes gradient {
+    0 {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+/*Small changes on mobile view*/
+@media (max-width: 900px) {
+    .mobile-show {
+        display: block;
+    }
+
+    .intro {
+        padding-top: 20%;
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .img-hide {
+        text-align: center;
+        display: inline;
+        width: 80%;
+    }
+
+    .wiz-h2 {
+        font-weight: 600;
+        font-size: 1.11rem;
+    }
+
+    .wiz-h2-part1 {
+        padding-top: 10%;
+    }
+
+    .wiz-h2-help {
+        padding-bottom: 10%;
+    }
+
+    .testimonial-text {
+        font-weight: 500;
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+}

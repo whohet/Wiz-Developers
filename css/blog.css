@@ -1,0 +1,28 @@
+.blog {
+    padding: 17% 15% 7%;
+}
+
+.date-2 {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .blog {
+        padding: 19% 15% 7%;
+    }
+}
+
+@media (max-width: 900px) {
+    .blog {
+        padding: 22% 15% 7%;
+    }
+
+    .date {
+        display: none;
+    }
+
+    .date-2 {
+        display: block;
+        text-align: right;
+    }
+}

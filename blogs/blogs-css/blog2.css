@@ -1,0 +1,47 @@
+.download-app-blog {
+    text-align: center;
+    padding: 2%;
+}
+
+.blog-content {
+    padding-top: 18%;
+}
+
+.img {
+    padding-top: 1%;
+}
+
+.image {
+    padding: 0;
+    width: 50%;
+}
+
+@media (max-width: 900px) {
+    .image {
+        width: 100%;
+    }
+}
+
+h3 {
+    padding-top: 2%;
+}
+
+h5 {
+    padding-top: 1%;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+tr {
+    text-align: center;
+}
+
+.none-dis {
+    display: none;
+}
